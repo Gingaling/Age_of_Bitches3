@@ -1,0 +1,17 @@
+
+
+> components-storybook@0.1.1 storybook /home/kali/web-sdk/packages/components-storybook
+> storybook dev -p 6006
+
+[1mstorybook v9.0.15[22m[0m
+[0m
+[?25l[2K[1G[36m?[39m [1mPort 6006 is not available. Would you like to run Storybook on port 6007 instead?[22m [90m›[39m [90m(Y/n)[39m[2K[1A[2K[1A[2K[G[2K[1G[32m✔[39m [1mPort 6006 is not available. Would you like to run Storybook on port 6007 instead?[22m [90m…[39m yes
+[?25hYou are currently using Storybook [1m9.0.15[22m but you have packages which are incompatible with it:
+
+- @chromatic-com/storybook@3.2.5 which depends on ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+- @storybook/addon-svelte-csf@5.0.5 which depends on ^0.1.13
+
+Please consider updating your packages or contacting the maintainers for compatibility details.
+
+For more on Storybook 9 compatibility, see the linked GitHub issue:
+https://github.com/storybookjs/storybook/issues/30944

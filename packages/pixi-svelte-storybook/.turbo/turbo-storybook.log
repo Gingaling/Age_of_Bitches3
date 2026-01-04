@@ -1,0 +1,35 @@
+
+
+> pixi-svelte-storybook@0.1.1 storybook /home/kali/web-sdk/packages/pixi-svelte-storybook
+> storybook dev -p 6006
+
+[1mstorybook v9.0.15[22m[0m
+[0m
+[?25l[2K[1G[36m?[39m [1mPort 6006 is not available. Would you like to run Storybook on port 6007 instead?[22m [90m›[39m [90m(Y/n)[39m[2K[1A[2K[1A[2K[G[2K[1G[32m✔[39m [1mPort 6006 is not available. Would you like to run Storybook on port 6007 instead?[22m [90m…[39m yes
+[?25hYou are currently using Storybook [1m9.0.15[22m but you have packages which are incompatible with it:
+
+- @chromatic-com/storybook@3.2.5 which depends on ^8.2.0 || ^8.3.0-0 || ^8.4.0-0 || ^8.5.0-0 || ^8.6.0-0
+- @storybook/addon-svelte-csf@5.0.5 which depends on ^0.1.13
+
+Please consider updating your packages or contacting the maintainers for compatibility details.
+
+For more on Storybook 9 compatibility, see the linked GitHub issue:
+https://github.com/storybookjs/storybook/issues/30944
+[38;2;241;97;97mError: Failed to load static files, no such directory: [36m./static[39m
+Make sure this directory exists.[39m
+    at parseStaticDir (/home/kali/web-sdk/node_modules/.pnpm/storybook@9.0.15_@testing-library+dom@10.4.0_prettier@3.6.2/node_modules/storybook/dist/core-server/presets/common-preset.cjs:9844:11)
+    at /home/kali/web-sdk/node_modules/.pnpm/storybook@9.0.15_@testing-library+dom@10.4.0_prettier@3.6.2/node_modules/storybook/dist/core-server/presets/common-preset.cjs:10018:54
+    at Array.map (<anonymous>)
+    at Object.favicon (/home/kali/web-sdk/node_modules/.pnpm/storybook@9.0.15_@testing-library+dom@10.4.0_prettier@3.6.2/node_modules/storybook/dist/core-server/presets/common-preset.cjs:10013:15)
+    at async useStatics (/home/kali/web-sdk/node_modules/.pnpm/storybook@9.0.15_@testing-library+dom@10.4.0_prettier@3.6.2/node_modules/storybook/dist/core-server/index.cjs:35426:58)
+    at async Promise.all (index 2)
+    at async storybookDevServer (/home/kali/web-sdk/node_modules/.pnpm/storybook@9.0.15_@testing-library+dom@10.4.0_prettier@3.6.2/node_modules/storybook/dist/core-server/index.cjs:36782:82)
+    at async buildOrThrow (/home/kali/web-sdk/node_modules/.pnpm/storybook@9.0.15_@testing-library+dom@10.4.0_prettier@3.6.2/node_modules/storybook/dist/core-server/index.cjs:35407:12)
+    at async buildDevStandalone (/home/kali/web-sdk/node_modules/.pnpm/storybook@9.0.15_@testing-library+dom@10.4.0_prettier@3.6.2/node_modules/storybook/dist/core-server/index.cjs:38031:78)
+    at async withTelemetry (/home/kali/web-sdk/node_modules/.pnpm/storybook@9.0.15_@testing-library+dom@10.4.0_prettier@3.6.2/node_modules/storybook/dist/core-server/index.cjs:36157:12)
+
+Broken build, fix the error above.
+You may need to refresh the browser.
+
+[?25l[2K[1G[36m?[39m [1mWould you like to help improve Storybook by sending anonymous crash reports?[22m [90m›[39m [90m(Y/n)[39mNo story files found for the specified pattern: [34msrc/**/*.mdx[39m
+CSF Parsing error: Expected 'ObjectExpression' but found 'undefined' instead in 'Identifier'.
